@@ -48,7 +48,7 @@ public class Main {
         Random rand = new Random();
         int num = rand.nextInt(25);
         //System.out.println("Загаданное слово № " + (num+1) + " - " + words[num]);
-        System.out.print("Сиграем в отгадай слово. Введите слово: ");
+        System.out.print("Сыграем в отгадай слово. Введите слово: ");
 
         do {
             textUser = inNum.nextLine();
@@ -71,7 +71,7 @@ public class Main {
         Random rand = new Random();
         int num = rand.nextInt(10);
         //System.out.println("Загаданное число " + num);
-        System.out.println("Сиграем в отгадай число. Дается 3 попытки. Чтобы отгадать загаданное целое число от 0 до 9. Введите первое число.");
+        System.out.println("Сыграем в отгадай число. Дается 3 попытки. Чтобы отгадать загаданное целое число от 0 до 9. Введите первое число.");
         for (int i = 0; i < 3; i++) {
             inNum = readNum();
             if (inNum == num) {
